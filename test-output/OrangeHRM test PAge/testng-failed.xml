@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM test PAge]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeHRM login page(failed)">
+    <parameter name="UserName" value="Admin"/>
+    <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/"/>
+    <classes>
+      <class name="com.Parameter.ParameterTest">
+        <methods>
+          <include name="orangehrmTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Parameter.ParameterTest -->
+    </classes>
+  </test> <!-- OrangeHRM login page(failed) -->
+</suite> <!-- Failed suite [OrangeHRM test PAge] -->
